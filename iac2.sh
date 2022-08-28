@@ -23,6 +23,9 @@ cd /tmp
 echo "Baixando os arquivos da aplicação..."
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 
+echo "Descompactando arquivo com a aplicação..."
+unzip main.zip
+
 echo "Copiando a aplicação para o diretório Apache"
 cd linux-site-dio-main
 cp -R * /var/www/html
