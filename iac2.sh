@@ -7,8 +7,8 @@
 
 echo "Script IaC iniciado!!"
 echo "Atualizando o servidor..."
-apt update
-apt upgrade -y
+apt-get update
+apt-get upgrade -y
 
 echo "Instalando o Apache..."
 apt install apache2 -y
