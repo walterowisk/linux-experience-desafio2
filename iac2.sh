@@ -11,11 +11,11 @@ apt-get update
 apt-get upgrade -y
 
 echo "Instalando o Apache..."
-apt install apache2 -y
+apt-get install apache2 -y
 
 
 echo "Instalando unzip..."
-apt install unzip -y
+apt-get install unzip -y
 
 echo "Caminhando para o diretório de arquivos temporários..."
 cd /tmp
